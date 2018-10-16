@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.countDown {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    border-radius: 50%;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+header {
+    padding: 20px 0;
+    background: cadetblue url(../images/gravel.png) repeat;
+    text-align: center;
+}
+
+header button {
+    display: inline-block;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    background-color: darkslategrey;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+header button:hover {
+    box-shadow: 0 0 10px #a8a8a8;
+    background-color: rgb(62, 105, 105);
+}
+
+.piano {
+    height: 60px;
+    background: url('../images/asfalto2.jpg') repeat;
+}
+
+/* .piano:last-child {
+    margin-bottom: 20px;
+} */
+
+#circuito {
+    /* width: 900px; */
+    /* margin: 0 auto 20px; */
+    /* height: 600px; */
+    background-color: beige;
+    position: relative;
+    background: url('../images/asfalto1.jpg') repeat top left;
+}
+
+.track {
+    height: 130px;
+    background-color: rgba(47, 79, 79, .4);
+    /* border: 1px solid white; */
+    position: relative;
+
+}
+
+.finish-line {
+    height: 100%;
+    width: 60px;
+    background-color: yellow;
+    background: url('../images/meta.png') repeat;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.car {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    border-radius: 20px 28px 28px 20px;
+    transition: .2s;
+}
+
+#car1 {
+    /* background-color: aqua; */
+    background-image: url('../images/car1.jpg');
+}
+
+#car2 {
+    /* background-color: rgb(216, 224, 98); */
+    background-image: url('../images/car2.jpg');
+}
+
+#car3 {
+    background-image: url('../images/car3.jpg');
+    /* background-color: rgb(201, 57, 193); */
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: cadetblue url(../images/gravel.png) repeat;
+}
+
+footer h2 {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+}
